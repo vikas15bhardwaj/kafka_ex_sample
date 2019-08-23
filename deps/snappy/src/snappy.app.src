@@ -1,0 +1,10 @@
+{application,snappy,
+             [{description,"snappy compressor/decompressor Erlang NIF wrapper"},
+              {vsn,"1.1.1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[snappy]},
+              {maintainers,["Benoit Chesneau"]},
+              {license,["Apache 2"]},
+              {links,[{"Github","https://github.com/barrel-db/snappy"}]}]}.

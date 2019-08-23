@@ -1,0 +1,10 @@
+{application,kafka,
+             [{applications,[kernel,stdlib,elixir,logger,kafka_ex,snappy]},
+              {description,"kafka"},
+              {modules,['Elixir.Kafka','Elixir.Kafka.Application',
+                        'Elixir.Kafka.Consumer',
+                        'Elixir.Kafka.ConsumerSupervisor',
+                        'Elixir.Kafka.Supervisor']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Kafka.Application',[]}}]}.
